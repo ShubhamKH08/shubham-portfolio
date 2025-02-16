@@ -5,7 +5,7 @@ import useToggle from '../../utils/hooks/useToggle';
 import useScrollInto from '../../utils/hooks/useScrollInto';
 import useScrollSpy from '../../utils/hooks/useScrollSpy';
 
-import logo1 from '../../assets/logo_fondo_blanco_4.webp';
+import logo1 from '../../assets/s_logo-removebg-preview.png';
 import styles from './Header.module.css';
 
 import Modal from '../Modal/Modal';
@@ -63,22 +63,28 @@ const Header = () => {
 
   async function downloadApp() {
     console.log('👍', 'butInstall-clicked');
-    const promptEvent = window.deferredPrompt;
-    if (!promptEvent) {
-      // The deferred prompt isn't available.
-      console.log('oops, no prompt event guardado en window');
-      return;
-    }
-    // Show the install prompt.
-    promptEvent.prompt();
-    // Log the result
-    const result = await promptEvent.userChoice;
-    console.log('👍', 'userChoice', result);
-    // Reset the deferred prompt variable, since
-    // prompt() can only be called once.
-    window.deferredPrompt = null;
-    // Hide the install button.
-    setIsReadyForInstall(false);
+    // URL of the resume you uploaded to Google Drive or any download link
+    const resumeUrl =
+      'https://drive.google.com/file/d/1TZo2dje4wn56Ev4lTLaz4hklBawbWce5/view?usp=sharing'; // Replace with your actual link
+
+    // Trigger the download
+    window.location.href = resumeUrl; // This will redirect the browser to the link and initiate the download
+    // const promptEvent = window.deferredPrompt;
+    // if (!promptEvent) {
+    //   // The deferred prompt isn't available.
+    //   console.log('oops, no prompt event guardado en window');
+    //   return;
+    // }
+    // // Show the install prompt.
+    // promptEvent.prompt();
+    // // Log the result
+    // const result = await promptEvent.userChoice;
+    // console.log('👍', 'userChoice', result);
+    // // Reset the deferred prompt variable, since
+    // // prompt() can only be called once.
+    // window.deferredPrompt = null;
+    // // Hide the install button.
+    // setIsReadyForInstall(false);
   }
 
   return (
@@ -109,7 +115,7 @@ const Header = () => {
           <ul className={styles.navLinks}>
             <li className="home">
               <a title="inicio" href="#!" onClick={() => handleLink('home')}>
-                inicio
+                start
               </a>
             </li>
             <li className="features">
@@ -118,7 +124,7 @@ const Header = () => {
                 href="#!"
                 onClick={() => handleLink('features')}
               >
-                habilidades
+                skills
               </a>
             </li>
             <li className="portfolio">
@@ -127,12 +133,12 @@ const Header = () => {
                 href="#!"
                 onClick={() => handleLink('portfolio')}
               >
-                portafolio
+                portfolio
               </a>
             </li>
             <li className="about">
               <a title="SOBRE MI" href="#!" onClick={() => setModal(true)}>
-                SOBRE MI
+                ABOUT ME
               </a>
             </li>
             <li className="clients">
@@ -141,21 +147,21 @@ const Header = () => {
                 href="#!"
                 onClick={() => handleLink('clients')}
               >
-                Recomendaciones
+                Recommendations
               </a>
             </li>
-            <li className="blog">
+            {/* <li className="blog">
               <a title="blog" href="#!" onClick={() => handleLink('blog')}>
                 blog
               </a>
-            </li>
+            </li> */}
             <li className="contact">
               <a
                 title="contacto"
                 href="#!"
                 onClick={() => handleLink('contact')}
               >
-                contacto
+                contact
               </a>
             </li>
             <li>
@@ -179,7 +185,7 @@ const Header = () => {
                   type="button"
                   onClick={() => downloadApp(true)}
                 >
-                  Instalar APP
+                  Download Resume
                 </button>
               </li>
             ) : (
@@ -187,9 +193,9 @@ const Header = () => {
                 <button
                   className={styles.homeBtn}
                   type="button"
-                  onClick={() => setModal(true)}
+                  onClick={() => downloadApp(true)}
                 >
-                  VER MAS
+                  Download Resume
                 </button>
               </li>
             )}
@@ -272,7 +278,7 @@ const Header = () => {
                     type="button"
                     onClick={() => downloadApp(true)}
                   >
-                    Instalar APP
+                    Download Resume
                   </button>
                 </li>
               ) : (

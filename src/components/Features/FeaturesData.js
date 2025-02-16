@@ -6,23 +6,23 @@ const data = [
     icon: 'fas fa-mobile-alt main',
 
     description:
-      'Capacidad para definir estrategias para obtener sitios web adaptables a diferentes tipos de dispositivos.',
+      'Ability to define strategies to obtain websites adaptable to different types of devices.',
   },
   {
     id: 2,
     image: 'https://picsum.photos/50/50?random=2',
     icon: 'fas fa-code main',
-    title: 'Desarrollo',
+    title: 'Development',
     description:
-      'Creación de aplicaciones escalables y mantenibles para resolver problemas. Me gustan los retos.',
+      'Creating scalable and maintainable applications to solve problems. I like challenges.',
   },
   {
     id: 3,
     image: 'https://picsum.photos/50/50?random=3',
     icon: 'fas fa-globe main',
-    title: 'Rendimiento',
+    title: 'Performance',
     description:
-      'Los sitios web de alto rendimiento para los usuarios son un punto a favor, yo me encargo de eso.',
+      "High performing websites for users are a plus, I'll take care of that.",
   },
   /* {
     id: 4,

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-import data from '../Blog/BlogData';
+// import data from '../Blog/BlogData';
 import styles from './styles.module.css';
 //import Card from '../Portfolio/Card';
 import Card from './Card';

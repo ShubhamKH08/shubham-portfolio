@@ -1,7 +1,7 @@
 const data = [
   /*  {
     id: 0,
-    author: 'Antonio Ayola',
+    author: 'Shubham Hagawane',
     title: 'Demo post for styles',
     date: '07 de Marzo, 2022',
     banner: 'npm/banner.webp',
@@ -10,7 +10,7 @@ const data = [
   }, */
   {
     id: 1,
-    author: 'Antonio Ayola',
+    author: 'Shubham Hagawane',
     title: 'Creación de Mi portafolio',
     date: '07 de Marzo, 2022',
     banner: 'miPrimer/banner.webp',
@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: 2,
-    author: 'Antonio Ayola',
+    author: 'Shubham Hagawane',
     title: 'ECMAScript 6+',
     date: '10 de Marzo, 2022',
     banner: 'ecmascript/banner.webp',
@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 3,
-    author: 'Antonio Ayola',
+    author: 'Shubham Hagawane',
     title: 'Gestión de Dependencias y Paquetes con NPM',
     date: '24 de Marzo, 2022',
     banner: 'npm/banner.webp',

@@ -1,6 +1,6 @@
 {
-  "short_name": "Antonio Ayola",
-  "name": "Antonio Ayola Portafolio",
+  "short_name": "Shubham Hagawane",
+  "name": "Shubham Hagawane Portafolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -26,7 +26,7 @@
   "background_color": "#ecf0f3",
   "theme_color": "#66b58f",
   "categories": ["education", "entertainment", "lifestyle", "social"],
-  "description": "Antonio Ayola Portafolio",
+  "description": "Shubham Hagawane Portafolio",
   "dir": "ltr",
   "id": "/v1",
   "lang": "es-MX",
@@ -68,7 +68,7 @@
       "short-name": "Testimonios",
       "icon": "logo96.png",
       "url": "/#clients",
-      "description": "Que dicen de mi trabajo"
+      "description": "Awards & Achievements"
     },
     {
       "name": "Blog",

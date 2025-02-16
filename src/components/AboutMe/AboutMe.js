@@ -85,7 +85,7 @@ function About() {
     <div className={styles.me}>
       <h2>Quien soy y más sobre mi</h2>
       <p>
-        Me llamo Antonio Ayola soy un desarrollador de Software de México con
+        Me llamo Shubham Hagawane soy un desarrollador de Software de México con
         gran afición al mundo Tecnológico, autodidacta y apasionado por aprender
         más todos los días sobre nuevas tecnologias. <br />
         <br />A lo largo de mi aventura en el mundo del desarrollo web, me
@@ -352,10 +352,10 @@ function AboutMe() {
           <div className={styles.leftImg}>
             <img
               src={hero}
-              alt="antonio Ayola Profile"
+              alt="Shubham Hagawane Profile"
               className={styles.img}
             />
-            <h1>{'<Antonio Ayola/>'}</h1>
+            <h1>{'<Shubham Hagawane/>'}</h1>
             <a
               title="Buy me a coffe"
               className={styles.supportBtn}

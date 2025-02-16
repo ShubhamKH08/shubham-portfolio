@@ -80,7 +80,7 @@ function conDefaultParams(name = 'Antonio', age = '23', gender = 'M') {
   console.log(name, age, gender);
 }
 conDefaultParams();
-// Output: Antonio 23 M //;
+// Output: Shubham 23 M //;
 //Imprime los parametros por defecto que asignamos/;
 ```
 

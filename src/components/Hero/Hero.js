@@ -33,10 +33,10 @@ function Hero() {
           <h4
             className={isInViewport ? 'useSlideInLeft' : 'useSlideInLeftEnter'}
           >
-            ¡HOLA MUNDO!
+            !HELLO WORLD!
           </h4>
           <h1>
-            Hi, I&#39;m <span>Antonio Ayola</span>
+            Hi, I&#39;m <span>Shubham Hagawane</span>
           </h1>
 
           <h2>
@@ -56,15 +56,16 @@ function Hero() {
             />
           </h2>
           <h3>
-            Con gran afición al mundo tecnológico, tanto Frontend como Backend;
-            persiguiendo nuevos retos y explorando continuamente las nuevas
-            tendencias.
-            {/* Experiencia en Creación, prototipado y desarrollo de
-            productos digitales innovadores centrados en el usuario. */}
+            I am a driven engineer with a keen interest in Android and Game
+            Development. My expertise spans Full Stack, App Development, and
+            UI/UX. I thrive on learning and swiftly adapting to new
+            technologies, encompassing Android, NodeJS, Web, Backend, and Game
+            Development. Committed to crafting innovative, user-centric
+            solutions for positive user experiences.
           </h3>
           <div className={styles.socialSkills}>
             <div className={`col_1 ${isInViewport ? styles.slideIn : ''}`}>
-              <h5>ENCUENTRAME AQUI</h5>
+              <h5>FIND ME HERE</h5>
               <div className={styles.socialContainer}>
                 <a
                   title="github contact"
@@ -99,7 +100,7 @@ function Hero() {
               </div>
             </div>
             <div className={`col_1 ${isInViewport ? styles.slideIn : ''}`}>
-              <h5>APRENDIENDO</h5>
+              <h5>Worked With</h5>
               <figure className={styles.skillBtn}>
                 <img
                   width="50px"

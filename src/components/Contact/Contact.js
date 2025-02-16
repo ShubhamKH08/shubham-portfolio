@@ -44,7 +44,7 @@ const Contact = () => {
 
       if (response.status === 200) {
         setSuccess(true);
-        alert('Mensaje Enviado :)');
+        alert('Message Sent :)');
         setFormValues({
           name: '',
           number: '',
@@ -76,8 +76,8 @@ const Contact = () => {
           isInViewportOnce ? 'useSlideInLeft' : 'useSlideInLeftEnter'
         }`}
       >
-        <h4>DATOS DE CONTACTO</h4>
-        <h1>¡Trabajemos juntos!</h1>
+        <h4>CONTACT INFO</h4>
+        <h1>Let us work together</h1>
       </div>
       <div className={styles.content}>
         <div className={styles.left}>
@@ -87,19 +87,19 @@ const Contact = () => {
                 width="300px"
                 height="400px"
                 src={me}
-                alt="antonio Ayola Profile"
+                alt="Shubham Hagawane Profile"
               />
             </div>
             <div className={styles.details}>
-              <h1>Juan Antonio Ayola Cortes</h1>
+              <h1>Shubham Hagawane</h1>
               <p>
-                Estoy disponible en casi todas las redes sociales. Puede
-                enviarme un mensaje, le responderé dentro de las 24 horas.
-                Siempre puedes contactarme por los siguientes medios.
+                I am available on almost all social networks. Can Send me a
+                message, I will reply you within 24 hours. You can always
+                contact me by the following means.
               </p>
               <br />
               <p>
-                Numero:{' '}
+                Number:{' '}
                 <a
                   title="contact number whatsapp"
                   href={constants.profilesUrls.whatsapp}
@@ -110,7 +110,7 @@ const Contact = () => {
                 </a>
               </p>
               <p>
-                Correo:{' '}
+                Mail:{' '}
                 <a
                   title="contact email"
                   href={`mailto: ${constants.profilesUrls.email}`}
@@ -122,7 +122,7 @@ const Contact = () => {
               </p>
               <br />
 
-              <span> CONTÁCTAME AQUÍ</span>
+              <span>Social Media </span>
               <div className={styles.socialContainer}>
                 <a
                   title="contact facebook"
@@ -167,11 +167,11 @@ const Contact = () => {
 
         <div className={styles.right}>
           <p>
-            <i className="fas fa-envelope" /> Llena este formulario y mandame un
-            mensaje
+            <i className="fas fa-envelope" /> Fill out this form and send me a
+            message
           </p>
           <form onSubmit={submit} className={styles.form}>
-            <div className={`${styles.input} ${styles.inputRow}`}>
+            {/* <div className={`${styles.input} ${styles.inputRow}`}>
               <input
                 type="text"
                 name="name"
@@ -180,8 +180,8 @@ const Contact = () => {
                 value={formValues.name}
                 onChange={handleChange}
               />
-              <label htmlFor="name">NOMBRE</label>
-            </div>
+              <label htmlFor="name">Number</label>
+            </div> */}
             <div className={`${styles.input} ${styles.inputRow}`}>
               <input
                 type="number"
@@ -190,7 +190,7 @@ const Contact = () => {
                 value={formValues.number}
                 onChange={handleChange}
               />
-              <label htmlFor="number">NUMERO </label>
+              <label htmlFor="number">Number </label>
             </div>
             <div className={styles.input}>
               <input
@@ -212,7 +212,7 @@ const Contact = () => {
                 value={formValues.subject}
                 onChange={handleChange}
               />
-              <label htmlFor="subject">ASUNTO </label>
+              <label htmlFor="subject">Subject </label>
             </div>
             <div className={styles.input}>
               <textarea
@@ -225,22 +225,22 @@ const Contact = () => {
                 value={formValues.message}
                 onChange={handleChange}
               />
-              <label htmlFor="message">MENSAJE </label>
+              <label htmlFor="message">Message </label>
             </div>
             {!isLoading && (
               <button className={styles.submitBtn} type="submit">
-                ENVIAR MENSAJE <i className="fas fa-long-arrow-right" />
+                SEND MESSAGE <i className="fas fa-long-arrow-right" />
               </button>
             )}
             {isLoading && (
               <>
                 <div className={styles.loader} />
-                <p>Enviando Formulario</p>
+                <p>Sending Form</p>
               </>
             )}
             {error && (
               <span className={styles.errorMsg}>
-                Error al enviar formulario intentalo mas tarde
+                Error submitting form try again later
               </span>
             )}
             {success && (

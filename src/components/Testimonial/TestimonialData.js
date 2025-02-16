@@ -3,27 +3,27 @@
 const data = [
   {
     id: 0,
-    profileImg: 'appdt.webp',
-    company: 'APPDT Software',
-    name: 'Ing. Miguel Méndez Sánchez',
-    level: 'Director General',
-    work: 'Programador Analista',
-    date: '15 de Abril, 2019',
-    testimony: `El proyecto que desarrollo el cual se logró un avance satisfactorio cumpliendo tiempos y objetivos.
-    Cabe mencionar que el trabajo que Antonio realizo fue muy certero creando un excelente equipo de trabajo.`,
+    profileImg: 'sih_2023.jpg',
+    company: 'Smart India Hackathon, 2023',
+    name: 'Ministry Of Railway',
+    level: 'PSNA College of Engineering and Technology',
+    work: 'Smart India Hackathon, 2023 WINNER',
+    date: '20 Dec, 2023',
+    testimony: `National-level champion in Smart India Hackathon, securing 1st place out of 50,000 teams, representing the top 0.2%
+with a groundbreaking solution for the Ministry of Railways.
+`,
   },
   {
     id: 1,
-    profileImg: 'juanFranciscoIA.webp',
-    company: 'CIC IPN',
-    name: 'M. en C. Juan Francisco Islas Austria',
-    level: 'Project Manager',
-    work: 'Programador Frontend',
-    date: '28 de Diciembre, 2022',
-    testimony: `Que es una ciudadano con una conducta intachable. Ha demostrado ser un excelente 
-      compañero y un gran colaborador, comprometido, responsable y fiel cumplidor de sus tareas. 
-      Siempre ha manifestado preocupación por mejorar, aprender nuevas tecnologías y actualizar 
-      sus conocimientos`,
+    profileImg: 'smith_detection.jpg',
+    company: 'Smith Detection Hackathon, 2024',
+    name: 'Smith Detection Group Ltd.',
+    level: 'Hinjawadi, Pune',
+    work: 'Smith Detection Hackathon, 2024 Winner',
+    date: '10 Mar, 2024',
+    testimony: `National winner, securing 1st place and ranking in the top 1% for developing a threat detection solution using advanced
+deep learning methods and computer vision techniques for Smith Detection Pvt. Ltd.
+`,
   },
   /* 
   {
@@ -34,7 +34,7 @@ const data = [
     level: 'CEO',
     work: 'Programador Analista',
     testimony:
-      'Cabe mencionar que el trabajo que Antonio realizo fue muy certero creando un excelente equipo de trabajo',
+      'Cabe mencionar que el trabajo que Shubham realizo fue muy certero creando un excelente equipo de trabajo',
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const data = [
     level: 'CEO',
     work: 'Programador Analista',
     testimony:
-      'Cabe mencionar que el trabajo que Antonio realizo fue muy certero creando un excelente equipo de trabajo',
+      'Cabe mencionar que el trabajo que Shubham realizo fue muy certero creando un excelente equipo de trabajo',
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const data = [
     level: 'CEO',
     work: 'Programador Analista',
     testimony:
-      'Cabe mencionar que el trabajo que Antonio realizo fue muy certero creando un excelente equipo de trabajo',
+      'Cabe mencionar que el trabajo que Shubham realizo fue muy certero creando un excelente equipo de trabajo',
   }, */
 ];
 export default data;

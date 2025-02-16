@@ -1,6 +1,5 @@
 import './App.module.css';
 import './utils/theme.css';
-import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Features from './components/Features/Features';
 import Footer from './components/Footer/Footer';
@@ -20,7 +19,6 @@ function App() {
         <Features />
         <Portfolio />
         <Testimonial />
-        <Blog />
         <Contact />
       </main>
       <Footer />
