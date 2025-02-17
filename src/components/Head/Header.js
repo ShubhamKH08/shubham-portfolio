@@ -65,7 +65,7 @@ const Header = () => {
     console.log('👍', 'butInstall-clicked');
     // URL of the resume you uploaded to Google Drive or any download link
     const resumeUrl =
-      'https://drive.google.com/file/d/1TZo2dje4wn56Ev4lTLaz4hklBawbWce5/view?usp=sharing'; // Replace with your actual link
+      'https://drive.google.com/file/d/1nWBQS2OHL1q_G8Pcii83ej42MxzkGLGo/view?usp=sharing'; // Replace with your actual link
 
     // Trigger the download
     window.location.href = resumeUrl; // This will redirect the browser to the link and initiate the download
@@ -209,7 +209,7 @@ const Header = () => {
             >
               <li className="home">
                 <a title="inicio" href="#!" onClick={() => handleLink('home')}>
-                  inicio
+                  start
                 </a>
               </li>
               <li className="features">
@@ -218,7 +218,7 @@ const Header = () => {
                   href="#!"
                   onClick={() => handleLink('features')}
                 >
-                  habilidades
+                  skills
                 </a>
               </li>
               <li className="portfolio">
@@ -227,7 +227,7 @@ const Header = () => {
                   href="#!"
                   onClick={() => handleLink('portfolio')}
                 >
-                  portafolio
+                  portfolio
                 </a>
               </li>
               <li className="about">
@@ -239,7 +239,7 @@ const Header = () => {
                     setModal(true);
                   }}
                 >
-                  sobre mi
+                  about me
                 </a>
               </li>
               <li className="Recomendaciones">
@@ -248,21 +248,21 @@ const Header = () => {
                   href="#!"
                   onClick={() => handleLink('clients')}
                 >
-                  Recomendaciones
+                  Recommendations
                 </a>
               </li>
-              <li className="blog">
+              {/* <li className="blog">
                 <a title="blog" href="#!" onClick={() => handleLink('blog')}>
                   blog
                 </a>
-              </li>
+              </li> */}
               <li className="contact">
                 <a
                   title="contacto"
                   href="#!"
                   onClick={() => handleLink('contact')}
                 >
-                  contacto
+                  contact
                 </a>
               </li>
               <li>
@@ -286,12 +286,9 @@ const Header = () => {
                   <button
                     className={styles.homeBtn}
                     type="button"
-                    onClick={() => {
-                      setMobile(false);
-                      setModal(true);
-                    }}
+                    onClick={() => downloadApp(true)}
                   >
-                    VER MAS
+                    Download Resume
                   </button>
                 </li>
               )}
