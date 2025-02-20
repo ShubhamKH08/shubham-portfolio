@@ -83,7 +83,7 @@ const skills = [
 function About() {
   return (
     <div className={styles.me}>
-      <h2>Quien soy y más sobre mi</h2>
+      <h2>Who I am and more about me</h2>
       <p>
         Me llamo Shubham Hagawane soy un desarrollador de Software de México con
         gran afición al mundo Tecnológico, autodidacta y apasionado por aprender
@@ -93,36 +93,33 @@ function About() {
         cuales me enseñaron a corregir mis propios errores al desarrollar
         software.
       </p>
-      <h2>Trayectoria</h2>
+      <h2>Path</h2>
       <p>
-        Experiencia en dirección de equipos pequeños y en la participación de
-        todo proceso de una aplicación (desde el planteamiento inicial,
-        extracción de funcionalidades necesarias, desarrollo, pruebas y
-        evolución).
+        Experience in managing small teams and participating every process of an
+        application (from the initial approach, extraction of necessary
+        functionalities, development, testing and evolution).
         <br /> <br />
-        Busco ampliar mis conocimientos en la programación y obtener experiencia
-        formando parte de un productivo y exitoso equipo. Tengo habilidad para
-        adaptarme rapido a otras tecnologias. Estoy buscando un proyecto
-        adecuado a mis habilidades que me permita desarrollarme, que me ponga
-        nuevos retos y nuevos aprendizajes.
-        <br /> <br />I have a basic level of english, knowing the necessary for
-        communication, as well as consume documentation content in this
-        language.
+        I am looking to expand my knowledge in programming and gain experience
+        being part of a productive and successful team. I have ability to
+        quickly to other technologies. I am looking for a project appropriate to
+        my abilities that allows me to develop, that puts me new challenges and
+        new learnings.
+        <br /> <br />
       </p>
-      <h2>Intereses y Hobbies</h2>
+      <h2>Interests and Hobbies</h2>
       <p>
-        Interesado en aprender más sobre testing, principios de clean code,
-        mejorar mi ingles y escalabilidad en general.
-        <br /> En mi tiempo suelo tocar la guitarra 🎸, armar cubos rubik{' '}
+        Interested in learning more about testing, clean code principles,
+        improve my debugging skills and loves reading `Manhwa`.
+        <br /> In the mean time like to listen Music.{' '}
         <img
           src="https://img.icons8.com/ios/20/000000/rubiks-cube.png"
           alt="rubik"
         />{' '}
-        , hacer{' '}
+        , do{' '}
         <a href={constants.profilesUrls.instagram} title="Instagram Profile">
           origami
         </a>{' '}
-        🪁 y jugar videojuegos 🎮.
+        🪁 and play video games🎮.
       </p>
     </div>
   );
@@ -154,16 +151,13 @@ function Skills() {
 function Education() {
   return (
     <div className={styles.educationSection}>
-      <h2>Ingeniería en Software (2015-2019) (Titulado)</h2>
-      <h4>Universidad Politécnica de Pachuca</h4>
-      <span>
-        Universidad Politécnica de Pachuca - Carretera Pachuca – Ciudad Sahagún
-        Km. 20, Ex-Hacienda de Santa Bárbara, 43830
-      </span>
+      <h2>Computer Engineering (2021 - 2025)</h2>
+      <h4>MIT Academy Of Engineering, Alandi</h4>
+      <span>CGPA: 9.32 /10</span>
       <p>
-        Durante mis estudios en la UPP obtuve capacidad de responsabilidad,
-        esfuerzo y sacrificio, forme parte de equipos de trabajo y trabaje en
-        proyectos de IA.
+        During my studies at the MITAOE I gained the capacity for
+        responsibility, effort and sacrifice, be part of work teams and work in
+        projects.
       </p>
     </div>
   );
@@ -172,59 +166,8 @@ function Education() {
 function Studies() {
   return (
     <>
-      <h2>Certificados y cursos</h2>
+      <h2>Certificates and courses</h2>
       <ul className={styles.studiesContainer}>
-        <li>
-          <a
-            title="Certificado Ingles"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.inglesB1}
-          >
-            • Ingles B1 MCER - CENLEX IPN - 11 de Enero 2022
-          </a>
-        </li>
-        <li>
-          <a
-            title="Titulo Ing. en Software"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.ingSoftware}
-          >
-            • Titulo Ing. en Software - UPP - 17 de Enero 2020
-          </a>
-        </li>
-        <li>
-          <a
-            title="Platzi Profile"
-            target="_blank"
-            rel="noreferrer noopener"
-            href="https://platzi.com/p/AntonioAyola/"
-          >
-            • Perfil Platzi
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado Ingles"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.inglesC1}
-          >
-            • EF SET English Certificate 70/100 (C1 Advanced) - EF Standard
-            English Test (EF SET) - 06 de Octubre 2022
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado SCRUM"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.scrumStudy}
-          >
-            • Scrum Fundamentals Certified - SCRUMstudy - 29 de Enero 2023
-          </a>
-        </li>
         <li>
           <a
             title="Certificado NoCountry"
@@ -232,17 +175,47 @@ function Studies() {
             rel="noreferrer noopener"
             href={constants.cursos.noCountry}
           >
-            • No Country - Seleccionado7 - 1 de Mayo 2023
+            • NPTEL Online Certification, Cloud Computing , 2024
           </a>
         </li>
         <li>
           <a
-            title="Certificado Frontend"
+            title="Certificado Ingles"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.frontendDeveloper}
+            href={constants}
           >
-            • Curso de Frontend Developer - Platzi
+            • CCNAv7: Introduction to Networks, 2023
+          </a>
+        </li>
+        <li>
+          <a
+            title="Titulo Ing. en Software"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants}
+          >
+            • CCNAv7: Enterprise Networking, Security, and Automation, 2023
+          </a>
+        </li>
+        <li>
+          <a
+            title="Platzi Profile"
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https:/"
+          >
+            • CCNAv7: Switching, Routing, and Wireless Essentials, 2023
+          </a>
+        </li>
+        <li>
+          <a
+            title="Certificado Ingles"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants}
+          >
+            • Introduction to Cybersecurity,2023
           </a>
         </li>
         <li>
@@ -250,60 +223,9 @@ function Studies() {
             title="Certificado SCRUM"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.scrum}
+            href={constants}
           >
-            • Curso de SCRUM - Linkedin
-          </a>
-        </li>
-
-        <li>
-          <a
-            title="Certificado Fundamentos ing."
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.ingDeSoftware}
-          >
-            • Curso de Fundamentos de Ingeniería de Software - Platzi
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado Algoritmos"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.algoritmosPensamientoLogico}
-          >
-            • Algoritmos y Pensamiento Lógico - Platzi
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado Computación"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.computacionBasica}
-          >
-            • Curso de Computación Básica - Platzi
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado API REST"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.introduccionAPIRest}
-          >
-            • Curso de Introducción a API REST - EDTeam
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado GIT"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.git}
-          >
-            • Curso de GIT - Udemy
+            • Cybersecurity Essentials, 2023
           </a>
         </li>
         {/*  <li>
@@ -322,10 +244,10 @@ function Studies() {
 function CV() {
   return (
     <>
-      <h2>CV Privado</h2>
-      <p>Dirigete a la sección de contacto.</p>
+      <h2>Private CV</h2>
+      <p>Go to the contact section.</p>
       <button type="button" className="boxShadow" disabled>
-        DESCARGA CV
+        DOWNLOAD CV
       </button>
     </>
   );
@@ -333,8 +255,8 @@ function CV() {
 function Experience() {
   return (
     <>
-      <h2>Privado</h2>
-      <p>Dirigete a la sección de contacto.</p>
+      <h2>Private</h2>
+      <p>Go to the contact section.</p>
       <button type="button" className="boxShadow" disabled>
         Timeline...
       </button>
@@ -348,7 +270,7 @@ function AboutMe() {
     <section className={styles.aboutMe} id="about">
       <div className={styles.aboutContainer}>
         <div className={styles.AboutLeft}>
-          <span>Actualizado el 5 de Marzo, 2022</span>
+          <span>Updated Feb 20, 2025</span>
           <div className={styles.leftImg}>
             <img
               src={hero}
@@ -363,12 +285,12 @@ function AboutMe() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              APOYAME
+              SUPPORT ME
             </a>
             {/* <button className={styles.supportBtn} type="button">
               APOYAME
             </button> */}
-            <p>Desarrollo software con ❤️ y ☕️</p>
+            <p>Software development with ❤️ and ☕️</p>
             <p> &#x1F1F2;&#x1F1FD;</p>
           </div>
         </div>

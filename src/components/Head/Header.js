@@ -147,7 +147,7 @@ const Header = () => {
                 href="#!"
                 onClick={() => handleLink('clients')}
               >
-                Recommendations
+                Awards & Achievements
               </a>
             </li>
             {/* <li className="blog">
@@ -248,7 +248,7 @@ const Header = () => {
                   href="#!"
                   onClick={() => handleLink('clients')}
                 >
-                  Recommendations
+                  Achievements
                 </a>
               </li>
               {/* <li className="blog">

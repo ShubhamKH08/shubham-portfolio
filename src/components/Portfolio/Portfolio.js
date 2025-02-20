@@ -33,7 +33,7 @@ const Portfolio = () => {
             }`}
           >
             <h4>VISIT THE MOST RECENT PROJECTS IN MY PORTFOLIO</h4>
-            <h1>My Portfolio</h1>
+            <h1>Projects</h1>
           </div>
           <button
             type="button"
