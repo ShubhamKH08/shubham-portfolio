@@ -255,8 +255,8 @@ function Experience() {
   return (
     <>
       <h2>Private</h2>
-      <h3>ElasticRun, Pune (Jan 2025 - Present)</h3>
-      <h5>Software Development Intern</h5>
+      <h3>Software Development Intern</h3>
+      <h4>ElasticRun, Pune (Jan 2025 - Present)</h4>
       <br />
       <p>
         • Actively exploring the Frappe framework to build proficiency in
@@ -267,8 +267,8 @@ function Experience() {
       <br />
       <br />
       <h2>Private</h2>
-      <h3>Eumentis Informatics, Pune (Feb 2024 - Apr 2024)</h3>
-      <h5>Machine Learning Intern</h5>
+      <h3>Machine Learning Intern</h3>
+      <h4>Eumentis Informatics, Pune (Feb 2024 - Apr 2024)</h4>
       <br />
       <p>
         • Developed and optimized image classification models, achieving a 15%
