@@ -85,13 +85,12 @@ function About() {
     <div className={styles.me}>
       <h2>Who I am and more about me</h2>
       <p>
-        Me llamo Shubham Hagawane soy un desarrollador de Software de México con
-        gran afición al mundo Tecnológico, autodidacta y apasionado por aprender
-        más todos los días sobre nuevas tecnologias. <br />
-        <br />A lo largo de mi aventura en el mundo del desarrollo web, me
-        involucre en el desarrollo de varios proyectos, proponiéndome retos, los
-        cuales me enseñaron a corregir mis propios errores al desarrollar
-        software.
+        My name is Shubham Hagawane, I am a Software developer from Pune with
+        great love for the technological world, self-taught and passionate
+        learning more every day about new technologies. Throughout my adventure
+        in the world of web development, I got involved in the development of
+        several projects, setting myself challenges, which taught me to correct
+        my own mistakes when developing software.
       </p>
       <h2>Path</h2>
       <p>
@@ -256,7 +255,31 @@ function Experience() {
   return (
     <>
       <h2>Private</h2>
-      <p>Go to the contact section.</p>
+      <h3>ElasticRun, Pune (Jan 2025 - Present)</h3>
+      <br />
+      <h4>Software Development Intern</h4>
+      <br />
+      <p>
+        • Actively exploring the Frappe framework to build proficiency in
+        backend development for ERP systems.
+        <br /> • Technologies: Frappe, Python, Node.Js MariaDB, Redis, Kafka,
+        GitLab, Agile
+      </p>
+      <br />
+      <br />
+      <h2>Private</h2>
+      <h3>Eumentis Informatics, Pune (Feb 2024 - Apr 2024)</h3>
+      <br />
+      <h4>Machine Learning Intern</h4>
+      <br />
+      <p>
+        • Developed and optimized image classification models, achieving a 15%
+        improvement in prediction accuracy across datasets.
+        <br /> • Fine-tuned multiple algorithms, selecting the best performing
+        model, which led to a 20% reduction in training time.
+        <br /> • Technologies: : Python, OpenCV, TensorFlow, Deep Learning, Git,
+        Agile.
+      </p>
       <button type="button" className="boxShadow" disabled>
         Timeline...
       </button>
@@ -327,7 +350,7 @@ function AboutMe() {
                   className={styles.tabBtn}
                   aria-label="formación"
                 >
-                  formación
+                  Training
                 </button>
                 {/* <span className={styles.divider}>|</span> */}
               </li>
@@ -338,7 +361,7 @@ function AboutMe() {
                   className={styles.tabBtn}
                   aria-label="certificados"
                 >
-                  Certificados
+                  Certificates
                 </button>
                 {/* <span className={styles.divider}>|</span> */}
               </li>
@@ -349,7 +372,7 @@ function AboutMe() {
                   className={styles.tabBtn}
                   aria-label="experiencia"
                 >
-                  Experiencia
+                  Experiece
                 </button>
                 {/* <span className={styles.divider}>|</span> */}
               </li>
