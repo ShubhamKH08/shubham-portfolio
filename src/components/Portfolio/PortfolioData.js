@@ -66,27 +66,27 @@ Agrimax aims to revolutionize farming practices by providing farmers with the ne
     year: '2024',
     date: '30/04/2024',
     category: 'WEB DESIGN',
-    title: 'OpenCV Food Classification',
-    image: 'lolApp.webp',
+    title: 'Deep Learning-Based Study on Rumor Classification',
+    image: 'RUMOUR.png',
     technologies: [
-      'Machine Learning',
-      'Image Processing',
+      'NLP ',
       'Deep Learning',
       'Data Preprocessing',
       'Model Evaluation',
       'Project Management',
-      'React.js',
-      'Flask',
-      'MongoDB',
     ],
-    desc: `OpenCV Food Classification refers to the use of OpenCV, a computer vision library, to classify images of food items. This involves
-leveraging OpenCV's image processing capabilities along with machine learning or deep learning techniques to recognize and
-categorize different types of food based on visual features. The process typically includes data collection, preprocessing, model
-training, evaluation, and deployment to create a system capable of automatically identifying and categorizing food items from images
-or video streams.`,
+    desc: `To preprocess social media text using methods
+such as POS tagging and lemmatization to
+enhance feature extraction for rumor detection.
+To implement multiple deep learning models,
+including LSTM, BiLSTM, and CNN, for text
+classification in rumor detection. To evaluate the
+performance of these models based on accuracy,
+precision, recall, F1-score, and computational
+efficiency.`,
     links: {
       code: null,
-      page: 'https://master--lol-app.netlify.app/',
+      page: '',
     },
   },
   {
@@ -121,7 +121,7 @@ or video streams.`,
     date: '20/12/2023',
     category: ['WEB DEVELOPMENT'],
     title: 'Arriva-railway announcement dissemination ',
-    image: 'movieApp.webp',
+    image: 'arriva.png',
     technologies: [
       'React.Js',
       'Flask',
